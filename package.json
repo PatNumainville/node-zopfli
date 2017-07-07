@@ -1,7 +1,7 @@
 {
   "name": "node-zopfli",
   "description": "Bindings for Zopfli compressing lib. Compress gzip files 5% better than gzip.",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "author": "Pierre Inglebert <pierre.inglebert@gmail.com>",
   "contributors": [
     "duralog <funisher@gmail.com>",
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/pierreinglebert/node-zopfli",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pierreinglebert/node-zopfli.git"
+    "url": "https://github.com/PatNumainville/node-zopfli.git"
   },
   "bugs": {
     "url": "https://github.com/pierreinglebert/node-zopfli/issues"
@@ -30,9 +30,9 @@
   "binary": {
     "module_name": "zopfli",
     "module_path": "./lib/binding/{node_abi}-{platform}-{arch}",
-    "remote_path": "./{configuration}",
+    "remote_path": "./{version}",
     "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz",
-    "host": "https://node-zopfli.s3.amazonaws.com"
+    "host": "https://github.com/PatNumainville/node-zopfli/releases/download"
   },
   "dependencies": {
     "commander": "^2.8.1",
